@@ -1,0 +1,6 @@
+<%= turbo_stream.update "monitor" do %>
+  <%= render partial: "monitors/monitor", locals: { domain: @domain }%>
+<% end %>
+<%= turbo_stream.update "ping-button" do %>
+  <%= render partial: "pings/ping_button", locals: { domain: @domain }%>
+<% end %>
