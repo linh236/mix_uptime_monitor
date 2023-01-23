@@ -1,7 +1,7 @@
 <% if domain.monitoring %>
   <%= form_with model: domain, method: :put do |f| %>
     <%= f.hidden_field :monitor, value: false %>
-    <%= f.submit "Stop Monitoring" , class: "btn btn-secondary btn-tone" %>
+    <%= f.submit "Stop Monitoring" , class: "btn btn-danger btn-tone" %>
   <% end %>
 <% else %>
   <%= form_with model: domain, method: :put do |f| %>
