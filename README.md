@@ -1,4 +1,7 @@
 # README
+* Ruby: 3.1.x
+
+* Rails 7.1.x 
 You'll notice on the uptime monitoring project the buttons are not updated on click.
 
 When you click the "Monitor" button, the monitoring process starts, but the button still says "Monitor".
